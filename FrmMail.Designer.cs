@@ -49,7 +49,7 @@ namespace Ticari_Otamasyon
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(18, 177);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(107, 23);
+            this.label1.Size = new System.Drawing.Size(136, 29);
             this.label1.TabIndex = 0;
             this.label1.Text = "Mail Adresi:";
             // 
@@ -59,7 +59,7 @@ namespace Ticari_Otamasyon
             this.TxtMail.Name = "TxtMail";
             this.TxtMail.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtMail.Properties.Appearance.Options.UseFont = true;
-            this.TxtMail.Size = new System.Drawing.Size(242, 26);
+            this.TxtMail.Size = new System.Drawing.Size(242, 30);
             this.TxtMail.TabIndex = 1;
             // 
             // TxtKonu
@@ -68,15 +68,15 @@ namespace Ticari_Otamasyon
             this.TxtKonu.Name = "TxtKonu";
             this.TxtKonu.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtKonu.Properties.Appearance.Options.UseFont = true;
-            this.TxtKonu.Size = new System.Drawing.Size(242, 26);
-            this.TxtKonu.TabIndex = 1;
+            this.TxtKonu.Size = new System.Drawing.Size(242, 30);
+            this.TxtKonu.TabIndex = 2;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(65, 212);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(60, 23);
+            this.label2.Size = new System.Drawing.Size(74, 29);
             this.label2.TabIndex = 2;
             this.label2.Text = "Konu:";
             // 
@@ -85,7 +85,7 @@ namespace Ticari_Otamasyon
             this.TxtMesaj.Location = new System.Drawing.Point(131, 242);
             this.TxtMesaj.Name = "TxtMesaj";
             this.TxtMesaj.Size = new System.Drawing.Size(242, 164);
-            this.TxtMesaj.TabIndex = 2;
+            this.TxtMesaj.TabIndex = 3;
             this.TxtMesaj.Text = "";
             // 
             // label3
@@ -93,7 +93,7 @@ namespace Ticari_Otamasyon
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(60, 245);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(65, 23);
+            this.label3.Size = new System.Drawing.Size(84, 29);
             this.label3.TabIndex = 5;
             this.label3.Text = "Mesaj:";
             // 
@@ -115,7 +115,7 @@ namespace Ticari_Otamasyon
             this.label4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label4.Location = new System.Drawing.Point(3, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(363, 33);
+            this.label4.Size = new System.Drawing.Size(453, 41);
             this.label4.TabIndex = 8;
             this.label4.Text = "MAİL GÖNDERME PANELİ";
             // 
@@ -127,13 +127,13 @@ namespace Ticari_Otamasyon
             this.BtnGonder.Location = new System.Drawing.Point(131, 412);
             this.BtnGonder.Name = "BtnGonder";
             this.BtnGonder.Size = new System.Drawing.Size(191, 31);
-            this.BtnGonder.TabIndex = 3;
+            this.BtnGonder.TabIndex = 4;
             this.BtnGonder.Text = "GÖNDER";
             this.BtnGonder.Click += new System.EventHandler(this.BtnGonder_Click);
             // 
             // FrmMail
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 23F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 29F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(385, 457);
             this.Controls.Add(this.BtnGonder);
