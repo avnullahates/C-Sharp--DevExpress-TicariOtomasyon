@@ -1,1 +1,1 @@
-![photo](devexpress-ticari-otomasyon.png)
+![photo](pictures/devexpress-ticari-otomasyon.png)
